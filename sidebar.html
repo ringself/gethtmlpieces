@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="js/jquery2.0.3.js"></script>
+    <script type="text/javascript" src="js/sidebar.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <link href="css/sidebar.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<form>
+		<div class="choice"><a href="#" id="authored_trim_selectors" class="open">点击开始解析选中元素样式</a><i class="warn" title="Selectors may no longer match due to missing parent elements"></i></div>
+		<div class="box">
+			<textarea id="recbox"></textarea>
+			<a href="#" class="new-win" >新窗口查看结果</a>&nbsp;&nbsp;<a href="#" class="new-bind" style="color:green">自动解析</a>&nbsp;&nbsp;<a href="#" class="new-unbind" style="color:red">移除自动解析</a>
+			<div id="time"></div>
+		</div>
+	</form>
+</body>
+</html>
